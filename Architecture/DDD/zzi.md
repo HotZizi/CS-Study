@@ -1,5 +1,5 @@
 
-# 1. 도메인 주도 설계(Domain-Driven Design)
+# 도메인 주도 설계(Domain-Driven Design)
 
 
 ### 1. 도메인 주도 설계란?
