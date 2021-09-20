@@ -64,12 +64,12 @@ Prefilight 요청없이 바로 요청을 날린다.
 
 preflight가 없을 경우) 
 <br/>
-<img src="https://user-images.githubusercontent.com/62633444/133959804-5368e959-e24a-45c9-a5ee-34c45c07d9ab.jpeg" width="500" height="300"/>
+<img src="https://user-images.githubusercontent.com/62633444/133959804-5368e959-e24a-45c9-a5ee-34c45c07d9ab.jpeg" width="600" height="300"/>
 <br/><br/>
 
 preflight가 있을 경우)
 <br/>
-<img src="https://user-images.githubusercontent.com/62633444/133959950-f8a37431-920e-4b21-ad15-ca14f6e3604e.jpeg" width="500" height="300"/>
+<img src="https://user-images.githubusercontent.com/62633444/133959950-f8a37431-920e-4b21-ad15-ca14f6e3604e.jpeg" width="600" height="300"/>
 <br/><br/>
 
 
@@ -84,7 +84,7 @@ credentials : include
 Access-Control-Allow-Credentials : true
 (Access-Control-Allow-Origin: * 은 안된다.)
 
-**해결방안**)
+### 5. 해결방안
 Access-Control-Allow-Origin 세팅, Proxy 서버 사용 등등
 
 
