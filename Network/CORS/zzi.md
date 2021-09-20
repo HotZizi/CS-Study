@@ -84,6 +84,7 @@ credentials : include
 Access-Control-Allow-Credentials : true
 (Access-Control-Allow-Origin: * 은 안된다.)
 
+<br/>
 ### 5. 해결방안
 Access-Control-Allow-Origin 세팅, Proxy 서버 사용 등등
 
