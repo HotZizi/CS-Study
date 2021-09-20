@@ -47,6 +47,43 @@
 <img src="https://user-images.githubusercontent.com/62633444/133959192-12a3da61-ea96-4669-81fe-d50de9f30d66.jpeg" width="600" height="300"/>
 <br/>
 
+- **Simple Request**
+
+Prefilight 요청없이 바로 요청을 날린다.
+다음 조건을 만족해야한다..
+1. get,post,head 메서드중 하나
+2. content-type이 application/x-www-form-urlencoded,multipart/form-data,text/plain 중 하나
+3. 헤더는 accept,accept-language,content-language,content-type만 허용
+
+<br/>
+<img src="https://user-images.githubusercontent.com/62633444/133959500-3ac033ab-1053-478b-ac5c-7981a0b763d6.jpeg" width="500" height="300"/>
+<br/>
+
+**왜 preflight가 필요할까?**
+-> CORS를 모르는 서버를 위해서다.
+
+preflight가 없을 경우) 
+<br/>
+<img src="https://user-images.githubusercontent.com/62633444/133959804-5368e959-e24a-45c9-a5ee-34c45c07d9ab.jpeg" width="500" height="300"/>
+<br/><br/>
+
+preflight가 있을 경우)
+<br/>
+<img src="https://user-images.githubusercontent.com/62633444/133959950-f8a37431-920e-4b21-ad15-ca14f6e3604e.jpeg" width="500" height="300"/>
+<br/><br/>
+
+
+- **Credentialed Request**
+
+인증 관련 헤더를 포함할 때 사용하는 요청이다.  
+
+클라이언트 측)
+credentials : include
+
+서버 측)
+Access-Control-Allow-Credentials : true
+(Access-Control-Allow-Origin: * 은 안된다.)
+
 
 
 
