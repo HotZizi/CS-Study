@@ -26,13 +26,13 @@
 ### 서버 (Server)
 - 요청을 받고 `응답`하는 측 (Response)
 - 정보, 자원, 서비스를 `제공`하는 측
-- ex) chrome, firebase, safari
+- ex) nginx, apache
 
 
 ### 클라이언트(Client) 
 - 요청을 `보내는` 측 (Request)
 - 정보, 자원, 서비스를 `사용`하는 측
-- ex) nginx, apache
+- ex) chrome, firebase, safari
 
 이 둘은 HTTP라는 규약 하에 요청과 응답을 보내줘야 한다.
 
