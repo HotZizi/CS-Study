@@ -26,7 +26,8 @@
 - 비즈니스 로직 수행 가능
 - 웹 서버 + 웹 컨테이너   
 **컨테이너? jsp, servlet을 실행시킬수 있는 소프트웨어**!
-![IMG_7C5D14F5745B-1](https://user-images.githubusercontent.com/62633444/134891423-3c5d0a37-6985-46cb-9b81-37dcc49a2d51.jpeg)
+<img width = "600" src="https://user-images.githubusercontent.com/62633444/134891423-3c5d0a37-6985-46cb-9b81-37dcc49a2d51.jpeg"/>
+
+<img width ="600" src="https://user-images.githubusercontent.com/62633444/134891367-49ab6409-8d07-4a2b-9195-0d21f1224946.jpeg"/>
 
 
-![IMG_901A893BB133-1](https://user-images.githubusercontent.com/62633444/134891367-49ab6409-8d07-4a2b-9195-0d21f1224946.jpeg)
