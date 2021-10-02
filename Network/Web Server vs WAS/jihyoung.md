@@ -1,5 +1,10 @@
 # Web Server vs WAS
 
+<<<<<<< HEAD
+=======
+<br>
+
+>>>>>>> c76187be8402a6461ed7ae9d12e85a411ede9b03
 ## 정적 페이지와 동적 페이지
 
 <img src="https://gmlwjd9405.github.io/images/web/static-vs-dynamic.png">
@@ -23,6 +28,10 @@
 
 ## Web Server와 WAS
 
+<<<<<<< HEAD
+=======
+<br>
+>>>>>>> c76187be8402a6461ed7ae9d12e85a411ede9b03
 
 <img src="https://gmlwjd9405.github.io/images/web/webserver-vs-was1.png">
 
@@ -83,6 +92,7 @@ Tomcat, JBoss, Jeus, Web Sphere 등
 <br>
 
 ## Web Server와 WAS를 구분하는 이유
+<br>
 
 ![image](https://user-images.githubusercontent.com/59171154/135722059-b5f3474d-a790-45f5-983b-cd149d287289.png)
 
@@ -113,6 +123,11 @@ Web Server를 통해 정적인 파일들을 Application Server까지 가지 않�
 ### 효율적인 방법
 결론적으로 자원 이용의 효율성 및 장애 극복, 배포 및 유지보수의 편의성 을 위해 Web Server와 WAS를 분리한다.  Web Server를 WAS 앞에 두고 필요한 WAS들을 Web Server에 플러그인 형태로 설정하여 분산 처리를 할 수 있도록 한다.
 
+<<<<<<< HEAD
+=======
+<br>
+
+>>>>>>> c76187be8402a6461ed7ae9d12e85a411ede9b03
 <img src="https://gmlwjd9405.github.io/images/web/web-service-architecture.png">
 
 
@@ -121,4 +136,8 @@ Web Server를 통해 정적인 파일들을 Application Server까지 가지 않�
 
 참조 
 - https://gmlwjd9405.github.io/2018/10/27/webserver-vs-was.html
+<<<<<<< HEAD
 - https://www.youtube.com/watch?v=NyhbNtOq0Bc
+=======
+- https://www.youtube.com/watch?v=NyhbNtOq0Bc
+>>>>>>> c76187be8402a6461ed7ae9d12e85a411ede9b03
