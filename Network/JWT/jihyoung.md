@@ -30,6 +30,7 @@ aaaa.bbbbb.ccccc 의 구조로 앞부터 헤더(header), 내용(payload), 서명
 - alg : 해싱 알고리즘을 지정
   -  기본적으로 HMAC, SHA256, RSA가 사용되면 토큰을 검증 할 때 사용되는 signature부분에서 사용된다.
 
+  <br>
 
 ### 내용(Payload)
 
@@ -75,9 +76,13 @@ Header, Payload는 인코딩될 뿐(16진수로 변경), 따로 암호화되지 
 
 하지만 Verify Signature는 SECRET KEY를 알지 못하면 복호화할 수 없다. 
 
+A 사용자가 토큰을 조작하여 B 사용자의 데이터를 훔쳐보고 싶다고 가정해보자. 그래서 payload에 있던 A의 ID를 B의 ID로 바꿔서 다시 인코딩한 후 토큰을 서버로 보냈다. 그러면 서버는 처음에 암호화된 Verify Signature를 검사하게 된다. 여기서 Payload는 B사용자의 정보가 들어가 있으나 Verify Signature는 A의 Payload를 기반으로 암호화되었기 때문에 유효하지 않는 토큰으로 간주하게 됩니다. 여기서 A사용자는 SECRET KEY를 알지 못하는 이상 토큰을 조작할 수 없다는 걸 확인할 수 있습니다.
+
  <br>
 
 ### JWT 동작 과정
+ 
+ <br>
 
 ![995EC2345B53368912](https://user-images.githubusercontent.com/59171154/135726975-28f97c0c-b2e1-4b7b-b694-626b6c3951a4.png)
 
@@ -89,3 +94,5 @@ Header, Payload는 인코딩될 뿐(16진수로 변경), 따로 암호화되지 
 5. 사용자는 Access Token을 받아 저장한 후, 인증이 필요한 요청마다 토큰을 헤더에 실어 보낸다.
 6. 서버에서는 해당 토큰의 Verify Signature를 SECRET KEY로 복호화한 후, 조작 여부, 유효기간을 확인한다.
 7. 검증이 완료된다면, Payload를 디코딩하여 사용자의 ID에 맞는 데이터를 가져온다.
+
+ <br>
