@@ -37,7 +37,7 @@ OAuth는 Open Authorization, Open Authentication을 뜻하는 것으로, 인터�
 
 > 1. 왓챠에 접속
 > 2. "페이스북으로 회원가입 하기" 버튼 클릭
-> 3. 페이스북 로그인 창으로 이동 ( A)
+> 3. 페이스북 로그인 창으로 이동 ( A )
 > 4. 페이스북 로그인 성공 ( B )
 > 5. "해당 사이트의 접근을 허용할 것인가?" 창이 생성
 > 6. "허용"을 누르면( C ) 왓챠에서 로그인 목적으로 사용할 수 있는 토큰( Access token )을 페이스북이 발급 ( D )
@@ -45,6 +45,9 @@ OAuth는 Open Authorization, Open Authentication을 뜻하는 것으로, 인터�
 
 <br>
 
+보통 Resource Server는 Access Token을 발급할 때 Refresh Token을 함께 발급한다. Client는 두 Token을 모두 저장해두고, Resource Server의 API를 호출할 때는 Access Token을 사용한다. Access Token이 만료되어 401 에러가 발생하면, Client는 보관 중이던 Refresh Token을 보내 새로운 Access Token을 발급받게 된다.
+
+<br>
 
 
 
