@@ -99,5 +99,5 @@ WHERE 이름 = ( SELECT 천적
 
 SELF JOIN을 사용할 때는 반드시 별칭을 이용해서 논리적으로 두 개의 테이블을 분리시켜야 한다.
 
-**이해 잘되는 글
-->** https://futurists.tistory.com/17
+https://futurists.tistory.com/17
+https://github.com/WooVictory/Ready-For-Tech-Interview/blob/master/Database/SQL%20-%20Join.md
